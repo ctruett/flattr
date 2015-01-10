@@ -1,0 +1,707 @@
+.frame {
+  *zoom: 1; }
+  .frame:before, .frame:after {
+    content: " ";
+    display: table; }
+  .frame:after {
+    clear: both; }
+
+.button {
+  padding: 11px 22px; }
+
+.red.button {
+  background: #e51c23;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .red.button:active {
+    background: #b9151b; }
+
+.dark-red.button {
+  background: #d01716;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-red.button:active {
+    background: #a21211; }
+
+.pink.button {
+  background: #e91e63;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .pink.button:active {
+    background: #c1134e; }
+
+.dark-pink.button {
+  background: #c2185b;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-pink.button:active {
+    background: #951246; }
+
+.purple.button {
+  background: #9c27b0;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .purple.button:active {
+    background: #771e86; }
+
+.dark-purple.button {
+  background: #7b1fa2;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-purple.button:active {
+    background: #5a1777; }
+
+.deep-purple.button {
+  background: #673ab7;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .deep-purple.button:active {
+    background: #512e90; }
+
+.dark-deep-purple.button {
+  background: #512da8;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-deep-purple.button:active {
+    background: #3e2280; }
+
+.indigo.button {
+  background: #3f51b5;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .indigo.button:active {
+    background: #32408f; }
+
+.dark-indigo.button {
+  background: #303f9f;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-indigo.button:active {
+    background: #242f78; }
+
+.blue.button {
+  background: #5677fc;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .blue.button:active {
+    background: #244ffb; }
+
+.dark-blue.button {
+  background: #455ede;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-blue.button:active {
+    background: #2440cc; }
+
+.light-blue.button {
+  background: #03a9f4;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .light-blue.button:active {
+    background: #0286c2; }
+
+.cyan.button {
+  background: #00bcd4;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .cyan.button:active {
+    background: #008fa1; }
+
+.dark-cyan.button {
+  background: #0097a7;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-cyan.button:active {
+    background: #006974; }
+
+.teal.button {
+  background: #009688;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .teal.button:active {
+    background: #00635a; }
+
+.dark-teal.button {
+  background: #00796b;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-teal.button:active {
+    background: #00463e; }
+
+.green.button {
+  background: #259b24;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .green.button:active {
+    background: #1b721a; }
+
+.dark-green.button {
+  background: #0a7e07;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-green.button:active {
+    background: #064e04; }
+
+.light-green.button {
+  background: #8bc34a;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .light-green.button:active {
+    background: #71a436; }
+
+.lime.button {
+  background: #cddc39;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .lime.button:active {
+    background: #b2c022; }
+
+.dark-lime.button {
+  background: #afb42b;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-lime.button:active {
+    background: #878b21; }
+
+.yellow.button {
+  background: #ffeb3b;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .yellow.button:active {
+    background: #ffe608; }
+
+.dark-yellow.button {
+  background: #fbc02d;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-yellow.button:active {
+    background: #f0ad05; }
+
+.amber.button {
+  background: #ffc107;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .amber.button:active {
+    background: #d39e00; }
+
+.dark-amber.button {
+  background: #ffa000;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-amber.button:active {
+    background: #cc8000; }
+
+.orange.button {
+  background: #ff9800;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .orange.button:active {
+    background: #cc7a00; }
+
+.dark-orange.button {
+  background: #f57c00;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-orange.button:active {
+    background: #c26200; }
+
+.deep-orange.button {
+  background: #ff5722;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .deep-orange.button:active {
+    background: #ee3900; }
+
+.dark-deep-orange.button {
+  background: #e64a19;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-deep-orange.button:active {
+    background: #b83b14; }
+
+.brown.button {
+  background: #795548;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .brown.button:active {
+    background: #593f35; }
+
+.dark-brown.button {
+  background: #5d4037;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-brown.button:active {
+    background: #3d2a24; }
+
+.grey.button {
+  background: #757575;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .grey.button:active {
+    background: #5c5c5c; }
+
+.dark-grey.button {
+  background: #616161;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-grey.button:active {
+    background: #484848; }
+
+.black.button {
+  background: #000000;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .black.button:active {
+    background: black; }
+
+.white.button {
+  background: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .white.button:active {
+    background: #e6e6e6; }
+
+.blue-grey.button {
+  background: #607d8b;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .blue-grey.button:active {
+    background: #4b626d; }
+
+.dark-blue-grey.button {
+  background: #455a64;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 80%; }
+  .dark-blue-grey.button:active {
+    background: #303f46; }
+
+.frame {
+  display: table;
+  border-spacing: 22px;
+  margin: 0 auto; }
+
+.frame + .frame {
+  margin-top: -22px; }
+
+[class*='col-'] {
+  display: table-cell;
+  vertical-align: top; }
+
+.col-1 {
+  width: 10px; }
+
+.col-2 {
+  width: 21px; }
+
+.col-3 {
+  width: 32px; }
+
+.col-4 {
+  width: 43px; }
+
+.col-5 {
+  width: 54px; }
+
+.col-6 {
+  width: 64px; }
+
+.col-7 {
+  width: 75px; }
+
+.col-8 {
+  width: 86px; }
+
+.col-9 {
+  width: 97px; }
+
+.col-10 {
+  width: 108px; }
+
+.col-11 {
+  width: 118px; }
+
+.col-12 {
+  width: 129px; }
+
+.col-13 {
+  width: 140px; }
+
+.col-14 {
+  width: 151px; }
+
+.col-15 {
+  width: 162px; }
+
+.col-16 {
+  width: 172px; }
+
+.col-17 {
+  width: 183px; }
+
+.col-18 {
+  width: 194px; }
+
+.col-19 {
+  width: 205px; }
+
+.col-20 {
+  width: 216px; }
+
+.col-21 {
+  width: 226px; }
+
+.col-22 {
+  width: 237px; }
+
+.col-23 {
+  width: 248px; }
+
+.col-24 {
+  width: 259px; }
+
+.col-25 {
+  width: 270px; }
+
+.col-26 {
+  width: 280px; }
+
+.col-27 {
+  width: 291px; }
+
+.col-28 {
+  width: 302px; }
+
+.col-29 {
+  width: 313px; }
+
+.col-30 {
+  width: 324px; }
+
+.col-31 {
+  width: 334px; }
+
+.col-32 {
+  width: 345px; }
+
+.col-33 {
+  width: 356px; }
+
+.col-34 {
+  width: 367px; }
+
+.col-35 {
+  width: 378px; }
+
+.col-36 {
+  width: 388px; }
+
+.col-37 {
+  width: 399px; }
+
+.col-38 {
+  width: 410px; }
+
+.col-39 {
+  width: 421px; }
+
+.col-40 {
+  width: 432px; }
+
+.col-41 {
+  width: 442px; }
+
+.col-42 {
+  width: 453px; }
+
+.col-43 {
+  width: 464px; }
+
+.col-44 {
+  width: 475px; }
+
+.col-45 {
+  width: 486px; }
+
+.col-46 {
+  width: 496px; }
+
+.col-47 {
+  width: 507px; }
+
+.col-48 {
+  width: 518px; }
+
+.col-49 {
+  width: 529px; }
+
+.col-50 {
+  width: 540px; }
+
+.col-51 {
+  width: 550px; }
+
+.col-52 {
+  width: 561px; }
+
+.col-53 {
+  width: 572px; }
+
+.col-54 {
+  width: 583px; }
+
+.col-55 {
+  width: 594px; }
+
+.col-56 {
+  width: 604px; }
+
+.col-57 {
+  width: 615px; }
+
+.col-58 {
+  width: 626px; }
+
+.col-59 {
+  width: 637px; }
+
+.col-60 {
+  width: 648px; }
+
+.col-61 {
+  width: 658px; }
+
+.col-62 {
+  width: 669px; }
+
+.col-63 {
+  width: 680px; }
+
+.col-64 {
+  width: 691px; }
+
+.col-65 {
+  width: 702px; }
+
+.col-66 {
+  width: 712px; }
+
+.col-67 {
+  width: 723px; }
+
+.col-68 {
+  width: 734px; }
+
+.col-69 {
+  width: 745px; }
+
+.col-70 {
+  width: 756px; }
+
+.col-71 {
+  width: 766px; }
+
+.col-72 {
+  width: 777px; }
+
+.col-73 {
+  width: 788px; }
+
+.col-74 {
+  width: 799px; }
+
+.col-75 {
+  width: 810px; }
+
+.col-76 {
+  width: 820px; }
+
+.col-77 {
+  width: 831px; }
+
+.col-78 {
+  width: 842px; }
+
+.col-79 {
+  width: 853px; }
+
+.col-80 {
+  width: 864px; }
+
+.col-81 {
+  width: 874px; }
+
+.col-82 {
+  width: 885px; }
+
+.col-83 {
+  width: 896px; }
+
+.col-84 {
+  width: 907px; }
+
+.col-85 {
+  width: 918px; }
+
+.col-86 {
+  width: 928px; }
+
+.col-87 {
+  width: 939px; }
+
+.col-88 {
+  width: 950px; }
+
+.col-89 {
+  width: 961px; }
+
+.col-90 {
+  width: 972px; }
+
+.col-91 {
+  width: 982px; }
+
+.col-92 {
+  width: 993px; }
+
+.col-93 {
+  width: 1004px; }
+
+.col-94 {
+  width: 1015px; }
+
+.col-95 {
+  width: 1026px; }
+
+.col-96 {
+  width: 1036px; }
+
+.col-97 {
+  width: 1047px; }
+
+.col-98 {
+  width: 1058px; }
+
+.col-99 {
+  width: 1069px; }
+
+.col-100 {
+  width: 1080px; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=flattr.css.map */

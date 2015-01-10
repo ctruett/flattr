@@ -1,0 +1,25 @@
+// Buttons
+
+=button($color)
+	background: c($color)
+	text-decoration: none
+	color: c(white)
+	// text-align: center
+	border-radius: $radius
+	text-transform: uppercase
+	font-size: 80%
+	&:hover
+		background: lighten(c($color), 1%)
+	&:active
+		background: darken(c($color), 10%)
+
+.button
+	padding: $w/2 $w
+
+@each $color in $colornames
+	.#{$color}.button
+		+button($color)
+		@if lightness(c($color)) < 50%
+			color: c(white)
+		@else
+			color: c(grey)

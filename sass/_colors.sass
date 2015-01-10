@@ -1,0 +1,7 @@
+@import "_lightspeed-colors"
+
+$colornames: red dark-red pink dark-pink purple dark-purple deep-purple dark-deep-purple indigo dark-indigo blue dark-blue light-blue cyan dark-cyan teal dark-teal green dark-green light-green lime dark-lime yellow dark-yellow amber dark-amber orange dark-orange deep-orange dark-deep-orange brown dark-brown light-grey grey dark-grey black white blue-grey dark-blue-grey
+$lightspeed-colors: ( red: $red-500, dark-red: $red-700, pink: $pink-500, dark-pink: $pink-700, purple: $purple-500, dark-purple: $purple-700, deep-purple: $deep-purple-500, dark-deep-purple: $deep-purple-700, indigo: $indigo-500, dark-indigo: $indigo-700, blue: $blue-500, dark-blue: $blue-700, light-blue: $light-blue-500, cyan: $cyan-500, dark-cyan: $cyan-700, teal: $teal-500, dark-teal: $teal-700, green: $green-500, dark-green: $green-700, light-green: $light-green-500, lime: $lime-500, dark-lime: $lime-700, yellow: $yellow-500, dark-yellow: $yellow-700, amber: $amber-500, dark-amber: $amber-700, orange: $orange-500, dark-orange: $orange-700, deep-orange: $deep-orange-500, dark-deep-orange: $deep-orange-700, brown: $brown-500, dark-brown: $brown-700, light-grey: $grey-200, grey: $grey-600, dark-grey: $grey-700, black: $black, white: $white, blue-grey: $blue-grey-500, dark-blue-grey: $blue-grey-700 )
+
+@function c($color)
+	@return map-get($lightspeed-colors, $color)
