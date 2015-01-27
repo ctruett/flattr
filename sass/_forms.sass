@@ -23,3 +23,13 @@ input, select, textarea, button
 	-webkit-appearance: none
 	font-size: $fz
 	margin-bottom: $w
+
+.msg
+	padding: $w
+	margin-top: $w/2
+	&.error
+		background: rgba(c(pink), 0.2)
+		color: rgba(c(pink), 0.75)
+	&.success
+		background: rgba(c(light-green), 0.2)
+		color: rgba(c(green), 0.75)
