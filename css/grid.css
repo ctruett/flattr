@@ -1,5 +1,5 @@
 /*
-1272px grid system ~ Core CSS.
+1080px grid system ~ Core CSS.
 12 Columns ~ Margin left: 12px ~ Margin right: 12px
 
 Based on the 960.gs grid system - http://960.gs/
@@ -17,7 +17,7 @@ Increase this if your layout is wider.
 Note: IE6 works fine without this fix.
 */
 body {
-	min-width: 1272px;
+	min-width: 1080px;
 }
 
 /* =Containers
@@ -26,7 +26,7 @@ body {
 {
 	margin-left: auto;
 	margin-right: auto;
-	width: 1272px;
+	width: 1080px;
 }
 
 /* =Grid >> Global
@@ -70,104 +70,116 @@ body {
 
 /* =Grid >> 12 Columns
 --------------------------------------------------------------------------------*/
-.frame .col-1 {width: 82px;}
-.frame .col-2 {width: 188px;}
-.frame .col-3 {width: 294px;}
-.frame .col-4 {width: 400px;}
-.frame .col-5 {width: 506px;}
-.frame .col-6 {width: 612px;}
-.frame .col-7 {width: 718px;}
-.frame .col-8 {width: 824px;}
-.frame .col-9 {width: 930px;}
-.frame .col-10 {width: 1036px;}
-.frame .col-11 {width: 1142px;}
-.frame .col-12 {width: 1248px;}
+.frame .col-1 {width: 66px;}
+.frame .col-2 {width: 156px;}
+.frame .col-3 {width: 246px;}
+.frame .col-4 {width: 336px;}
+.frame .col-5 {width: 426px;}
+.frame .col-6 {width: 516px;}
+.frame .col-7 {width: 606px;}
+.frame .col-8 {width: 696px;}
+.frame .col-9 {width: 786px;}
+.frame .col-10 {width: 876px;}
+.frame .col-11 {width: 966px;}
+.frame .col-12 {width: 1056px;}
 
 /* =Prefix Extra Space >> 12 Columns
 --------------------------------------------------------------------------------*/
-.frame .prefix_1 {padding-left: 106px;}
-.frame .prefix_2 {padding-left: 212px;}
-.frame .prefix_3 {padding-left: 318px;}
-.frame .prefix_4 {padding-left: 424px;}
-.frame .prefix_5 {padding-left: 530px;}
-.frame .prefix_6 {padding-left: 636px;}
-.frame .prefix_7 {padding-left: 742px;}
-.frame .prefix_8 {padding-left: 848px;}
-.frame .prefix_9 {padding-left: 954px;}
-.frame .prefix_10 {padding-left: 1060px;}
-.frame .prefix_11 {padding-left: 1166px;}
+.frame .prefix_1 {padding-left: 90px;}
+.frame .prefix_2 {padding-left: 180px;}
+.frame .prefix_3 {padding-left: 270px;}
+.frame .prefix_4 {padding-left: 360px;}
+.frame .prefix_5 {padding-left: 450px;}
+.frame .prefix_6 {padding-left: 540px;}
+.frame .prefix_7 {padding-left: 630px;}
+.frame .prefix_8 {padding-left: 720px;}
+.frame .prefix_9 {padding-left: 810px;}
+.frame .prefix_10 {padding-left: 900px;}
+.frame .prefix_11 {padding-left: 990px;}
 
 /* =Suffix Extra Space >> 12 Columns
 --------------------------------------------------------------------------------*/
-.frame .suffix_1 {padding-right: 106px;}
-.frame .suffix_2 {padding-right: 212px;}
-.frame .suffix_3 {padding-right: 318px;}
-.frame .suffix_4 {padding-right: 424px;}
-.frame .suffix_5 {padding-right: 530px;}
-.frame .suffix_6 {padding-right: 636px;}
-.frame .suffix_7 {padding-right: 742px;}
-.frame .suffix_8 {padding-right: 848px;}
-.frame .suffix_9 {padding-right: 954px;}
-.frame .suffix_10 {padding-right: 1060px;}
-.frame .suffix_11 {padding-right: 1166px;}
+.frame .suffix_1 {padding-right: 90px;}
+.frame .suffix_2 {padding-right: 180px;}
+.frame .suffix_3 {padding-right: 270px;}
+.frame .suffix_4 {padding-right: 360px;}
+.frame .suffix_5 {padding-right: 450px;}
+.frame .suffix_6 {padding-right: 540px;}
+.frame .suffix_7 {padding-right: 630px;}
+.frame .suffix_8 {padding-right: 720px;}
+.frame .suffix_9 {padding-right: 810px;}
+.frame .suffix_10 {padding-right: 900px;}
+.frame .suffix_11 {padding-right: 990px;}
 
 /* `Push Space >> 12 Columns
 --------------------------------------------------------------------------------*/
-.frame .push_1 {left: 106px;}
-.frame .push_2 {left: 212px;}
-.frame .push_3 {left: 318px;}
-.frame .push_4 {left: 424px;}
-.frame .push_5 {left: 530px;}
-.frame .push_6 {left: 636px;}
-.frame .push_7 {left: 742px;}
-.frame .push_8 {left: 848px;}
-.frame .push_9 {left: 954px;}
-.frame .push_10 {left: 1060px;}
-.frame .push_11 {left: 1166px;}
+.frame .push_1 {left: 90px;}
+.frame .push_2 {left: 180px;}
+.frame .push_3 {left: 270px;}
+.frame .push_4 {left: 360px;}
+.frame .push_5 {left: 450px;}
+.frame .push_6 {left: 540px;}
+.frame .push_7 {left: 630px;}
+.frame .push_8 {left: 720px;}
+.frame .push_9 {left: 810px;}
+.frame .push_10 {left: 900px;}
+.frame .push_11 {left: 990px;}
 
 /* `Pull Space >> 12 Columns
 --------------------------------------------------------------------------------*/
-.frame .pull_1 {left: -106px;}
-.frame .pull_2 {left: -212px;}
-.frame .pull_3 {left: -318px;}
-.frame .pull_4 {left: -424px;}
-.frame .pull_5 {left: -530px;}
-.frame .pull_6 {left: -636px;}
-.frame .pull_7 {left: -742px;}
-.frame .pull_8 {left: -848px;}
-.frame .pull_9 {left: -954px;}
-.frame .pull_10 {left: -1060px;}
-.frame .pull_11 {left: -1166px;}
+.frame .pull_1 {left: -90px;}
+.frame .pull_2 {left: -180px;}
+.frame .pull_3 {left: -270px;}
+.frame .pull_4 {left: -360px;}
+.frame .pull_5 {left: -450px;}
+.frame .pull_6 {left: -540px;}
+.frame .pull_7 {left: -630px;}
+.frame .pull_8 {left: -720px;}
+.frame .pull_9 {left: -810px;}
+.frame .pull_10 {left: -900px;}
+.frame .pull_11 {left: -990px;}
 
 /* `Clear Floated Elements
 ----------------------------------------------------------------------------------------------------*/
+
 /* http://sonspring.com/journal/clearing-floats */
+
 .clear {
-	clear: both;
-	display: block;
-	overflow: hidden;
-	visibility: hidden;
-	width: 0;
-	height: 0;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
 }
 
 /* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+
 .clearfix:before,
-.clearfix:after {
-	content: "\0020";
-	display: block;
-	overflow: hidden;
-	visibility: hidden;
-	width: 0;
-	height: 0;
+.clearfix:after,
+.frame:before,
+.frame:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
 }
-.clearfix:after {
-	clear: both;
+
+.clearfix:after,
+.frame:after {
+  clear: both;
 }
+
 /*
-The following zoom:1 rule is specifically for IE6 + IE7.
-Move to separate stylesheet if invalid CSS is a problem.
+  The following zoom:1 rule is specifically for IE6 + IE7.
+  Move to separate stylesheet if invalid CSS is a problem.
 */
-.clearfix {
-	zoom: 1;
+
+.clearfix,
+.frame {
+  zoom: 1;
 }
