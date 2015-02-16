@@ -1,6 +1,6 @@
 /*
 1080px grid system ~ Core CSS.
-12 Columns ~ Margin left: 12px ~ Margin right: 12px
+12 Columns ~ Margin left: 24px ~ Margin right: 24px
 
 Based on the 960.gs grid system - http://960.gs/
 by Nathan Smith
@@ -17,16 +17,16 @@ Increase this if your layout is wider.
 Note: IE6 works fine without this fix.
 */
 body {
-	min-width: 1080px;
+  min-width: 960px;
 }
 
 /* =Containers
 --------------------------------------------------------------------------------*/
 .frame
 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1080px;
 }
 
 /* =Grid >> Global
@@ -43,10 +43,10 @@ body {
 .col-10,
 .col-11,
 .col-12 {
-	display: inline;
-	float: left;
-	margin-left: 12px;
-	margin-right: 12px;
+  display: inline;
+  float: left;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .push_1, .pull_1,
@@ -60,7 +60,7 @@ body {
 .push_9, .pull_9,
 .push_10, .pull_10,
 .push_11, .pull_11 {
-	position: relative;
+  position: relative;
 }
 
 /* =Grid >> Children (Alpha ~ First, Omega ~ Last)
@@ -70,18 +70,18 @@ body {
 
 /* =Grid >> 12 Columns
 --------------------------------------------------------------------------------*/
-.frame .col-1 {width: 66px;}
-.frame .col-2 {width: 156px;}
-.frame .col-3 {width: 246px;}
-.frame .col-4 {width: 336px;}
-.frame .col-5 {width: 426px;}
-.frame .col-6 {width: 516px;}
-.frame .col-7 {width: 606px;}
-.frame .col-8 {width: 696px;}
-.frame .col-9 {width: 786px;}
-.frame .col-10 {width: 876px;}
-.frame .col-11 {width: 966px;}
-.frame .col-12 {width: 1056px;}
+.frame .col-1 {width: 42px;}
+.frame .col-2 {width: 132px;}
+.frame .col-3 {width: 222px;}
+.frame .col-4 {width: 312px;}
+.frame .col-5 {width: 402px;}
+.frame .col-6 {width: 492px;}
+.frame .col-7 {width: 582px;}
+.frame .col-8 {width: 672px;}
+.frame .col-9 {width: 762px;}
+.frame .col-10 {width: 852px;}
+.frame .col-11 {width: 942px;}
+.frame .col-12 {width: 1032px;}
 
 /* =Prefix Extra Space >> 12 Columns
 --------------------------------------------------------------------------------*/
